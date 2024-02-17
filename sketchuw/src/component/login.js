@@ -1,58 +1,51 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './login.css';
 
-const login = () => {
+const Login = () => {
+  const [formData, setFormData] = useState({
+    email: '',
+    password: '',
+  });
 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
 
-
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Handle form submission or authentication logic
+    console.log('Submitted:', formData);
+  };
 
   return (
-    <div>
-        <form>
-        <div class="login-form">
-            <h1 class="form-title">ลงทะเบียน</h1>
+    <div className="form-container">
+      <h1>เข้าสู่ระบบ</h1>
 
-            <form>
-              <div class="input-container">
-                
-                <input type="text" name="firstname" id="firstname" placeholder="Firstname" required />
-              </div>
-
-              <div class="input-container">
-                
-                <input type="text" name="lastname" id="lastname" placeholder="Lastname" required />
-              </div>
-
-              <div class="input-container">
-                
-                <input type="tel" name="phone" id="phone" placeholder="Phone number" required />
-              </div>
-
-              <div class="input-container">
-                
-                <input type="email" name="email" id="email" placeholder="Email" required />
-              </div>
-
-              <div class="input-container">
-                
-                <input type="password" name="password" id="password" placeholder="Password" required />
-              </div>
-
-              
-
-              <input type="submit" value="สมัครสมาชิก" />
-            </form>
-
-            <p>
-              หากเป็นสมาชิกแล้ว <a href="#">เข้าสู่ระบบ</a>
-            </p>
-        </div>
-    
-
-        </form>
+      <form onSubmit={handleSubmit}>
+        <label htmlFor="email">อีเมล</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          required
+        />
+        <label htmlFor="password">รหัสผ่าน</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          value={formData.password}
+          onChange={handleChange}
+          required
+        />
+        <button type="submit">เข้าสู่ระบบ</button>
+         <p>ยังไม่ได้เป็นสมาชิก? <a href="#">สมัครสมาชิก</a></p>
+      </form>
     </div>
-    
-  )
-}
+  );
+};
 
-export default login
+export default Login;
