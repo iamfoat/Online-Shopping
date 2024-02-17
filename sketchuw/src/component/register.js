@@ -51,8 +51,9 @@ const login = () => {
 
             <p>
               หากเป็นสมาชิกแล้ว <Link to="/login">เข้าสู่ระบบ</Link>
-
             </p>
+
+            
         </div>
     
 

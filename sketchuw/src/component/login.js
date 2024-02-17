@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './login.css';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -42,7 +43,7 @@ const Login = () => {
           required
         />
         <button type="submit">เข้าสู่ระบบ</button>
-         <p>ยังไม่ได้เป็นสมาชิก? <a href="#">สมัครสมาชิก</a></p>
+         <p>ยังไม่ได้เป็นสมาชิก? <Link to="/register">สมัครสมาชิก</Link></p>
       </form>
     </div>
   );
