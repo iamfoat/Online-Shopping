@@ -29,10 +29,10 @@ const product = () => {
             <li>
                 <a href="#">FOOTWEAR</a>
                 <ul class="drop-menu">
-                    <li><a href="#">View All</a></li>
+                    {/* <li><a href="#">View All</a></li>
                     <li><a href="#">Men</a></li>
                     <li><a href="#">Women</a></li>
-                    <li><a href="#">Sneakers</a></li>
+                    <li><a href="#">Sneakers</a></li> */}
                 </ul>
             </li>
 
