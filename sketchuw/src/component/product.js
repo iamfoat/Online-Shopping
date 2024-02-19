@@ -9,7 +9,7 @@ const product = () => {
             <li>
                 <a href="#"> 
                     <div class="logo">
-                        {/* <img src="https://i.ibb.co/zxVxxrR/logosketchuw.png" title="" alt="" width="124"> */}
+                        <img src="https://i.ibb.co/zxVxxrR/logosketchuw.png" title="" alt="" width="124"></img>
                     </div>
                 </a>
             </li>
