@@ -3,6 +3,7 @@ import './App.css';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Login from './component/login';
 import Register from './component/register';
+import Product from './component/product';
 
 function App() {
   return (
@@ -11,16 +12,17 @@ function App() {
       {/* <Routes>
         <Route path='/' element={<login />}/>
       </Routes> */}
-      {/* <register/> */}
+       {/* <Register/>  */}
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
         
-        
+      {/* <Login/> */}
+      <Product/>
      
     </div>
   );

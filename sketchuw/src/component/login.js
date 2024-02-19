@@ -43,7 +43,7 @@ const Login = () => {
           required
         />
         <button type="submit">เข้าสู่ระบบ</button>
-         <p>ยังไม่ได้เป็นสมาชิก? <Link to="/register">สมัครสมาชิก</Link></p>
+         <p>ยังไม่ได้เป็นสมาชิก?</p><a href='#'>สมัครสมาชิก</a>
       </form>
     </div>
   );
