@@ -1,12 +1,9 @@
 import React from 'react'
-import './product.css'
-import { ClassNames } from '@emotion/react'
-import Icon from '@mui/material/Icon';
-import SearchIcon from '@mui/icons-material/Search';
+import './all.css'
 
-const product = () => {
+const Brand = () => {
   return (
-    <div className='product'>
+    <div className='brand'>
     <div>
     <nav className='navi'>
         <ul class="menu_left">
@@ -31,10 +28,7 @@ const product = () => {
             <li>
                 <a href="#">BAGS</a>
                 <ul class="drop-menu">
-                    {/* <li><a href="#">View All</a></li>
-                    <li><a href="#">Men</a></li>
-                    <li><a href="#">Women</a></li>
-                    <li><a href="#">Sneakers</a></li> */}
+    
                 </ul>
             </li>
 
@@ -80,10 +74,17 @@ const product = () => {
             </li>
 
         </ul>
+
+        
     </nav>
+    <div>
+        
     </div>
     </div>
+    </div>
+
+    
   )
 }
 
-export default product
+export default Brand

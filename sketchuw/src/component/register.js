@@ -10,11 +10,11 @@ const login = () => {
 
 
   return (
-    <div className='reg'>
+    <div className='reg' >
     <div>
-        <header>
+        {/* <header>
             <h1>sketchuw</h1>
-        </header>
+        </header> */}
         <form>
         <div class="login-form">
             <h1 class="form-title">ลงทะเบียน</h1>
@@ -51,7 +51,7 @@ const login = () => {
     
 
             <p>
-              หากเป็นสมาชิกแล้ว <a href='#'>เข้าสู่ระบบ</a>
+              หากเป็นสมาชิกแล้ว <a href='/'>เข้าสู่ระบบ</a>
             </p>
 
             

@@ -7,7 +7,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-nav {
+.navi{
     width: 200%;
     background-color: #fff;
     height: 80px;
@@ -45,6 +45,7 @@ nav {
     display: flex;
     list-style: none;
     align-items: center;
+    margin-right: 25px;
 }
 
 .menu_right li {
@@ -118,6 +119,10 @@ nav {
 .menu_left li:not(.logo) a:hover::after {
     transform: scaleX(1); /* Increase the scale on hover */
     transform-origin: bottom left;
+}
+
+.logo{
+    margin-left: -20px;
 }
 
 
