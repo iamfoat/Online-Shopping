@@ -10,6 +10,7 @@ const login = () => {
 
 
   return (
+    <div className='reg'>
     <div>
         <header>
             <h1>sketchuw</h1>
@@ -58,6 +59,7 @@ const login = () => {
     
 
         </form>
+    </div>
     </div>
     
   )

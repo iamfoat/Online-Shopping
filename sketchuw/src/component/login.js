@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './login.css';
 import { Link } from 'react-router-dom';
+import Button from '@mui/material/Button';
+
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -20,6 +22,7 @@ const Login = () => {
   };
 
   return (
+    <div className='login'>
     <div className="form-container">
       <h1>เข้าสู่ระบบ</h1>
 
@@ -42,9 +45,10 @@ const Login = () => {
           onChange={handleChange}
           required
         />
-        <button type="submit">เข้าสู่ระบบ</button>
+        <Button variant="contained">เข้าสู่ระบบ</Button>
          <p>ยังไม่ได้เป็นสมาชิก?</p><a href='#'>สมัครสมาชิก</a>
       </form>
+    </div>
     </div>
   );
 };
