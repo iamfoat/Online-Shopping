@@ -78,7 +78,22 @@ const Brand = () => {
         
     </nav>
     <div>
-        
+        <li className='cover'>
+        <div className='namebrand'>
+        <h3 href="#">BRAND</h3>
+        <a href="#">Adidas</a><br/>
+        <a href="#">Converse</a><br/>
+        <a href="#">Hoka</a><br/>
+        <a href="#">Keds</a><br/>
+        <a href="#">Mizuno</a><br/>
+        <a href="#">New balance</a><br/>
+        <a href="#">Lacoste</a><br/>
+        <a href="#">Nike</a><br/>
+        <a href="#">Puma</a><br/>
+        <a href="#">Reebok</a><br/>
+        <a href="#">Vans</a><br/>
+        </div>
+        </li>
     </div>
     </div>
     </div>
