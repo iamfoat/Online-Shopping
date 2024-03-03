@@ -45,7 +45,7 @@ const Login = () => {
           onChange={handleChange}
           required
         />
-        <Button variant="contained">เข้าสู่ระบบ</Button>
+        <a href='/login'><Button variant="contained">เข้าสู่ระบบ</Button></a>
          <p>ยังไม่ได้เป็นสมาชิก?</p><a href='/register'>สมัครสมาชิก</a>
       </form>
     </div>

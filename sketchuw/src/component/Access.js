@@ -1,18 +1,15 @@
 import React from 'react'
-import './product.css'
-import { ClassNames } from '@emotion/react'
-import Icon from '@mui/material/Icon';
-import SearchIcon from '@mui/icons-material/Search';
+import './all.css'
 
-const product = () => {
+const Brand = () => {
   return (
-    <div className='product'>
+    <div className='brand'>
     <div>
     <nav className='navi'>
         <ul class="menu_left">
             <li>              
                     <div class="logo">
-                        <a href='/Home'><img src="https://i.ibb.co/zxVxxrR/logosketchuw.png" title="" alt="" width="124"></img></a>
+                    <a href='/Home'><img src="https://i.ibb.co/zxVxxrR/logosketchuw.png" title="" alt="" width="124"></img></a>
                     </div>           
             </li>
 
@@ -31,10 +28,7 @@ const product = () => {
             <li>
                 <a href="/Bag">BAGS</a>
                 <ul class="drop-menu">
-                    {/* <li><a href="#">View All</a></li>
-                    <li><a href="#">Men</a></li>
-                    <li><a href="#">Women</a></li>
-                    <li><a href="#">Sneakers</a></li> */}
+    
                 </ul>
             </li>
 
@@ -44,7 +38,7 @@ const product = () => {
             </li>
 
 
-         
+           
 
 
         </ul>
@@ -78,10 +72,32 @@ const product = () => {
             </li>
 
         </ul>
+
+        
     </nav>
+    <div>
+        <div className='cover'>
+        <div className='namebrand'>
+        <h3 href="#">BRAND</h3>
+        <a href="#">Adidas</a><br/>
+        <a href="#">Converse</a><br/>
+        <a href="#">Hoka</a><br/>
+        <a href="#">Keds</a><br/>
+        <a href="#">Mizuno</a><br/>
+        <a href="#">New balance</a><br/>
+        <a href="#">Lacoste</a><br/>
+        <a href="#">Nike</a><br/>
+        <a href="#">Puma</a><br/>
+        <a href="#">Reebok</a><br/>
+        <a href="#">Vans</a><br/>
+        </div>
+        </div>
     </div>
     </div>
+    </div>
+
+    
   )
 }
 
-export default product
+export default Brand

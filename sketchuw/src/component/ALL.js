@@ -9,24 +9,24 @@ const Brand = () => {
         <ul class="menu_left">
             <li>              
                     <div class="logo">
-                        <img src="https://i.ibb.co/zxVxxrR/logosketchuw.png" title="" alt="" width="124"></img>
+                    <a href='/Home'><img src="https://i.ibb.co/zxVxxrR/logosketchuw.png" title="" alt="" width="124"></img></a>
                     </div>           
             </li>
 
                 
             <li>
-                <a href="#">ALL PRODUCT</a>
+                <a href="/All">ALL PRODUCT</a>
             </li>
 
 
             <li>
-                <a href="#">FOOTWEAR</a>
+                <a href="/Footwear">FOOTWEAR</a>
                 
             </li>
 
 
             <li>
-                <a href="#">BAGS</a>
+                <a href="/Bag">BAGS</a>
                 <ul class="drop-menu">
     
                 </ul>
@@ -34,13 +34,10 @@ const Brand = () => {
 
 
             <li>
-                <a href="#">ACCESSORIES</a>
+                <a href="/access">ACCESSORIES</a>
             </li>
 
 
-            <li>
-                <a href="#">SPORTS</a>
-            </li>
 
 
         </ul>
@@ -78,7 +75,7 @@ const Brand = () => {
         
     </nav>
     <div>
-        <li className='cover'>
+        <div className='cover'>
         <div className='namebrand'>
         <h3 href="#">BRAND</h3>
         <a href="#">Adidas</a><br/>
@@ -93,7 +90,7 @@ const Brand = () => {
         <a href="#">Reebok</a><br/>
         <a href="#">Vans</a><br/>
         </div>
-        </li>
+        </div>
     </div>
     </div>
     </div>
