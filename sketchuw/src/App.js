@@ -8,6 +8,7 @@ import All from './component/ALL';
 import Foot from './component/Foot';
 import Bag from './component/Bag';
 import Access from './component/Access';
+import User from './component/User';
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
         <Route path="/Home" element={<Product />} />
         <Route path="/Bag" element={<Bag />} />
         <Route path="/access" element={<Access />} />
+        <Route path="/account" element={<User />} />
+
 
 
 
