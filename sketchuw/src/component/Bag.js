@@ -1,6 +1,7 @@
 import React from 'react'
 import './all.css'
 
+
 const Bag = () => {
   return (
     <div className='brand'>
@@ -89,6 +90,62 @@ const Bag = () => {
         <a href="#">Puma</a><br/>
         <a href="#">Reebok</a><br/>
         <a href="#">Vans</a><br/>
+        </div>
+        <div className="product-list"> {/* เพิ่ม className เพื่อใช้สไตล์ CSS สำหรับ ProductList */}
+            <ul>
+                <li>
+                    <a href="#">
+                    <img src="https://d2cva83hdk3bwc.cloudfront.net/nike-nsw-futura-365-faux-fur-crossbody-bag-1l-black-1.jpg" alt="Product Name" />
+                    <div>
+                        <h3>Nike NSW Futura 365 Faux Fur Crossbody Bag 1L Black</h3>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: ฿3,190.00</p>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="" alt="Product Name" />
+                    <div>
+                        <h3>Product name</h3>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: ฿3,190.00</p>
+                    </div>
+                    </a>
+                </li>
+                {/* Add more <li> items for additional products */}
+                <li>
+                <a href="#">
+                    <img src="" alt="Product Name" />
+                    <div>
+                        <h3>Product name</h3>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: ฿3,190.00</p>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="" alt="Product Name" />
+                    <div>
+                        <h3>Product name</h3>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: $X.XX</p>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="" alt="Product Name" />
+                    <div>
+                        <h3>Product name</h3>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: $X.XX</p>
+                    </div>
+                    </a>
+                </li>
+                {/* Add more <li> items for additional products */}
+            </ul>
         </div>
         </div>
     </div>

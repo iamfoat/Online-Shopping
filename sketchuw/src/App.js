@@ -10,6 +10,7 @@ import Bag from './component/Bag';
 import Access from './component/Access';
 import User from './component/User';
 import Cart from './component/cart';
+import Show  from './component/show';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/access" element={<Access />} />
         <Route path="/account" element={<User />} />
         <Route path="/cart" element={<Cart/>} />
+        <Route path="/show" element={<Show/>} />
 
 
 

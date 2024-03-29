@@ -91,6 +91,62 @@ const Access = () => {
         <a href="#">Reebok</a><br/>
         <a href="#">Vans</a><br/>
         </div>
+        <div className="product-list"> {/* เพิ่ม className เพื่อใช้สไตล์ CSS สำหรับ ProductList */}
+            <ul>
+                <li>
+                <a href="#">
+                    <img src="https://laz-img-sg.alicdn.com/p/4b5776a94915c3d67974e2aae8db0019.png" alt="Product Name" />
+                    <div>
+                        <h3>หมวกเบสบอล AEROREADY 3-STRIPES</h3>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: ฿3,190.00</p>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="https://static.nike.com/a/images/t_default/01c389c1-2186-4502-8894-ba4ac6de6de4/%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%99%E0%B8%99%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%B8%E0%B9%89%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD-everyday-plus-cushioned-h3Pq0p.png" alt="Product Name" />
+                    <div>
+                        <h3>ถุงเท้าเทรนนิ่งหุ้มข้อ Nike Everyday Plus Cushioned</h3>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: ฿3,190.00</p>
+                    </div>
+                    </a>
+                </li>
+                {/* Add more <li> items for additional products */}
+                <li>
+                <a href="#">
+                    <img src="" alt="Product Name" />
+                    <div>
+                        <h3>Product name</h3>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: 3800฿</p>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="" alt="Product Name" />
+                    <div>
+                        <h3>Product name</h3>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: $X.XX</p>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="" alt="Product Name" />
+                    <div>
+                        <h3>Product name</h3>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: $X.XX</p>
+                    </div>
+                    </a>
+                </li>
+                {/* Add more <li> items for additional products */}
+            </ul>
+        </div>
         </div>
     </div>
     </div>
