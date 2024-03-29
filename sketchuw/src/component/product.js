@@ -1,9 +1,6 @@
 import React from 'react'
 import './product.css'
 import ProductList from './ProductList';
-import { ClassNames } from '@emotion/react'
-import Icon from '@mui/material/Icon';
-import SearchIcon from '@mui/icons-material/Search';
 
 const product = () => {
   return (

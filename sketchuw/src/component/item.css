@@ -1,0 +1,29 @@
+.product-list {
+    margin-top: 20px; /* ปรับช่องสินค้าลงมา 20px */
+  }
+  .brand {
+    display: flex;
+  }
+  .product-item img{
+    margin-left: -750px;
+    max-width: 56%; /* กำหนดความกว้างสูงสุดของรูปภาพ */
+    max-height: 56%; /* กำหนดความสูงสูงสุดของรูปภาพ */
+  }
+
+  .product-list {
+    display: flex;
+    flex-direction: row; /* แบ่งเป็นครึ่งหน้าแนวนอน */
+  }
+  
+  .product-item {
+    flex: 1; /* ให้รูปภาพครอบพื้นที่ครึ่งหน้า */
+  }
+  
+  .product-info {
+    flex: 1; /* ให้ข้อมูลสินค้าครอบพื้นที่ครึ่งหน้า */
+  }
+  
+  
+
+  
+    

@@ -10,8 +10,7 @@ import Bag from './component/Bag';
 import Access from './component/Access';
 import User from './component/User';
 import Cart from './component/cart';
-import Show  from './component/show';
-
+import Show from './component/item';
 function App() {
   return (
     <div className="App">

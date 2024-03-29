@@ -6,7 +6,7 @@ const ProductList = () => {
         <div className="product-list"> {/* เพิ่ม className เพื่อใช้สไตล์ CSS สำหรับ ProductList */}
             <ul>
             <li>
-            <a href="#">
+            <a href="/show">
                 <img src="https://static.nike.com/a/images/t_default/01c389c1-2186-4502-8894-ba4ac6de6de4/%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%99%E0%B8%99%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%B8%E0%B9%89%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD-everyday-plus-cushioned-h3Pq0p.png" alt="Product Name" />
                     <div>
                         <h3>ถุงเท้าเทรนนิ่งหุ้มข้อ Nike Everyday Plus Cushioned</h3>
