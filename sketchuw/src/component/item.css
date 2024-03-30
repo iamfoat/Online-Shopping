@@ -5,9 +5,8 @@
     display: flex;
   }
   .product-item img{
-    margin-left: -750px;
-    max-width: 56%; /* กำหนดความกว้างสูงสุดของรูปภาพ */
-    max-height: 56%; /* กำหนดความสูงสูงสุดของรูปภาพ */
+    margin-left: 20px;
+    width: 40% !important;
   }
 
   .product-list {
@@ -16,12 +15,25 @@
   }
   
   .product-item {
-    flex: 1; /* ให้รูปภาพครอบพื้นที่ครึ่งหน้า */
+    display: flex; /* เรียงลำดับรูปภาพและข้อมูลให้เรียงติดกันในแนวนอน */
+    align-items: center; /* จัดให้รูปภาพและข้อมูลสินค้าอยู่กลางตามแนวตั้ง */
   }
-  
-  .product-info {
-    flex: 1; /* ให้ข้อมูลสินค้าครอบพื้นที่ครึ่งหน้า */
-  }
+
+  .product-item .info {
+    flex: 1; /* ให้ข้อมูลสินค้าเต็มพื้นที่ */
+    margin-left: 90px;
+    align-self: flex-start;
+    padding-top: 50px;
+    text-align: left;
+}
+
+.product-item .info p{
+  text-align: left;
+}
+
+.product-item .info Button{
+  margin-top: 200px;
+}
   
   
 

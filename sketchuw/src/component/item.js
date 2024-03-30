@@ -1,25 +1,37 @@
 import React from 'react';
 import './item.css'
+import Button from '@mui/material/Button';
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import IconButton from '@mui/material/IconButton';
+
+
+
 
 const ProductItem = () => {
   return (
     <div className="product-item">
       <img
-        src="https://d2cva83hdk3bwc.cloudfront.net/nike-nsw-futura-365-faux-fur-crossbody-bag-1l-black-1.jpg"
+        src="https://static.nike.com/a/images/t_default/01c389c1-2186-4502-8894-ba4ac6de6de4/%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%99%E0%B8%99%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%B8%E0%B9%89%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD-everyday-plus-cushioned-h3Pq0p.png"
         alt="Product Name"
       />
-      <div>
-        <h3>Nike NSW Futura 365 Faux Fur Crossbody Bag 1L Black</h3>
-        <p>Description of the product goes here.</p>
-        <p>Price: ฿3,190.00</p>
+      <div className="info">
+        <h2>Nike NSW Futura 365 Faux Fur Crossbody Bag 1L Black</h2>
+        <h3>฿3,190.00</h3>
+        <p>size</p>
+        
+        <Button variant="contained">Add to Cart</Button>
+        <IconButton color="primary" aria-label="add to shopping cart">
+          <AddShoppingCartIcon />
+        </IconButton>
       </div>
     </div>
   );
 };
 
+
 const ProductList = () => {
   return (
-    <div className="product-list">
+    <div className="product-listt">
       <ProductItem />
       {/* Add more ProductItem components for additional products */}
     </div>

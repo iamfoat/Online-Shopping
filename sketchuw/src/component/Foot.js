@@ -89,6 +89,62 @@ const Foot = () => {
         <a href="#">Reebok</a><br/>
         <a href="#">Vans</a><br/>
         </div>
+        <div className="product-list"> {/* เพิ่ม className เพื่อใช้สไตล์ CSS สำหรับ ProductList */}
+            <ul>
+                <li>
+                <a href="#">
+                    <img src="https://i.ebayimg.com/images/g/8ikAAOSwy5Vjew~Z/s-l500.png" alt="Product Name" />
+                    <div>
+                        <h3>New Balance 530 White Silver Navy</h3>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: ฿3,190.00</p>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="https://laz-img-sg.alicdn.com/p/4b5776a94915c3d67974e2aae8db0019.png" alt="Product Name" />
+                    <div>
+                        <h3>หมวกเบสบอล AEROREADY 3-STRIPES</h3>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: ฿3,190.00</p>
+                    </div>
+                    </a>
+                </li>
+                {/* Add more <li> items for additional products */}
+                <li>
+                <a href="#">
+                    <img src="https://d2cva83hdk3bwc.cloudfront.net/nike-nsw-futura-365-faux-fur-crossbody-bag-1l-black-1.jpg" alt="Product Name" />
+                    <div>
+                        <h3>Nike NSW Futura 365 Faux Fur Crossbody Bag 1L Black</h3>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: ฿3,190.00</p>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="https://d2cva83hdk3bwc.cloudfront.net/converse-run-star-hike-hi-black-white-gum-1.jpg" alt="Product Name" />
+                    <div>
+                        <h3>Converse Run Star Hike Hi Black White Gum</h3>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: ฿3,190.00</p>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img src="https://d2cva83hdk3bwc.cloudfront.net/vans-old-skool-black---white-1.jpg" alt="Product Name" />
+                    <div>
+                        <h3>VANS Old Skool Black - White</h3>
+                        <p>Description of the product goes here.</p>
+                        <p>Price: ฿3,190.00</p>
+                    </div>
+                    </a>
+                </li>
+                {/* Add more <li> items for additional products */}
+            </ul>
+        </div>
         </div>
     </div>
     </div>

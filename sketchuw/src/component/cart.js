@@ -1,6 +1,6 @@
 import React from 'react'
 import './cart.css'
-
+import Button from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
@@ -94,23 +94,24 @@ const Img = styled('img')({
         </div><Paper
             sx={{
                 p: 2,
-                margin: 'auto',
-                maxWidth: 1000,
+                margin: '0px',
+                maxWidth: '100%',
                 flexGrow: 1,
                 backgroundColor: (theme) => theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+                boxShadow: 'none',
             }}
         >
-                <Grid container spacing={2}>
+                <Grid container spacing={2} sx={{ margin: '10px 0' , border: '1px solid #ccc', borderRadius: '5px', padding: '10px', backgroundColor: '#f0f0f0',width: '70%'}}>
                     <Grid item>
                         <ButtonBase sx={{ width: 128, height: 128 }}>
-                            <Img alt="complex" src="https://d2cva83hdk3bwc.cloudfront.net/nike-mac-attack-qs-sp-travis-scott-1.jpg" />
+                            <Img alt="complex" src="https://static.nike.com/a/images/t_default/01c389c1-2186-4502-8894-ba4ac6de6de4/%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%99%E0%B8%99%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%B8%E0%B9%89%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD-everyday-plus-cushioned-h3Pq0p.png" />
                         </ButtonBase>
                     </Grid>
                     <Grid item xs={12} sm container>
                         <Grid item xs container direction="column" spacing={2}>
                             <Grid item xs>
                                 <Typography gutterBottom variant="subtitle1" component="div">
-                                    สุริยะ มีใจ
+                                Nike NSW Futura 365 Faux Fur Crossbody Bag 1L Black
                                 </Typography>
                                 <Typography variant="body2" gutterBottom>
                                     size 
@@ -130,6 +131,80 @@ const Img = styled('img')({
                         </Grid>
                     </Grid>
                 </Grid>
+
+                <Grid container spacing={2} sx={{ margin: '10px 0' , border: '1px solid #ccc', borderRadius: '5px', padding: '10px' , backgroundColor: '#f0f0f0',width: '70%'}}>
+                    <Grid item >
+                        <ButtonBase sx={{ width: 128, height: 128 }}>
+                            <Img alt="complex" src="https://static.nike.com/a/images/t_default/01c389c1-2186-4502-8894-ba4ac6de6de4/%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%99%E0%B8%99%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%B8%E0%B9%89%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD-everyday-plus-cushioned-h3Pq0p.png" />
+                        </ButtonBase>
+                    </Grid>
+                    <Grid item xs={12} sm container>
+                        <Grid item xs container direction="column" spacing={2}>
+                            <Grid item xs>
+                                <Typography gutterBottom variant="subtitle1" component="div">
+                                Nike NSW Futura 365 Faux Fur Crossbody Bag 1L Black
+                                </Typography>
+                                <Typography variant="body2" gutterBottom>
+                                    size 
+                                </Typography>
+                              
+                            </Grid>
+                            <Grid item>
+                                <Typography sx={{ cursor: 'pointer' }} variant="body2">
+                                    Remove
+                                </Typography>
+                            </Grid>
+                        </Grid>
+                        <Grid item>
+                            <Typography variant="subtitle1" component="div">
+                                $19000.00
+                            </Typography>
+                        </Grid>
+                    </Grid>
+                </Grid>
+
+                <Grid container spacing={2} sx={{ margin: '10px 0 10px 72%' ,marginTop: '-351px', border: '1px solid #ccc', borderRadius: '5px', padding: '10px', backgroundColor: '#f0f0f0',width: '25%'}}>
+                    <Grid item>
+                        
+                    </Grid>
+                    <Grid item xs={6} sm container>
+                        <Grid item xs container direction="column" spacing={2} textAlign={'left'}>
+                            <Grid item xs>
+                                <Typography gutterBottom variant="subtitle1" component="div">
+                                ราคาสินค้า
+                                </Typography>
+                                <Typography gutterBottom variant="subtitle1" component="div">
+                                จัดส่งสินค้า
+                                </Typography>
+                                <Typography gutterBottom variant="subtitle1" component="div">
+                                ยอดรวมสุทธิ
+                                </Typography>
+                              
+                            </Grid>
+                            <Grid item sx={{ margin: '15px'}} textAlign={'center'}>
+                            <Button variant="contained">ยืนยันคำสั่งซื้อ</Button>
+
+                            </Grid>
+                        </Grid>
+                        
+                        <Grid item textAlign={'left'} >
+                            <Typography variant="subtitle1" component="div">
+                                $19000.00
+                            </Typography>
+                            <Typography variant="subtitle1" component="div">
+                                $0.00
+                            </Typography>
+                            <Typography variant="subtitle1" component="div">
+                                $19000.00
+                            </Typography>
+                        </Grid>
+                    </Grid>
+                </Grid>
+
+                
+
+                
+                
             </Paper></>
     );
   }
