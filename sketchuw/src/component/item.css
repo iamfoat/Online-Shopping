@@ -1,9 +1,7 @@
 .product-list {
     margin-top: 20px; /* ปรับช่องสินค้าลงมา 20px */
   }
-  .brand {
-    display: flex;
-  }
+ 
   .product-item img{
     margin-left: 20px;
     width: 40% !important;

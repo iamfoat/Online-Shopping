@@ -1,16 +1,18 @@
 import React from 'react'
-import './product.css'
-import ProductList from './ProductList';
+import './all.css'
+import './Payment.css'
 
-const product = () => {
+
+
+const Payment = () => {
   return (
-    <div className='product'>
+    <div className='brand'>
     <div>
     <nav className='navi'>
         <ul class="menu_left">
             <li>              
                     <div class="logo">
-                        <a href='/Home'><img src="https://i.ibb.co/zxVxxrR/logosketchuw.png" title="" alt="" width="124"></img></a>
+                    <a href='/Home'><img src="https://i.ibb.co/zxVxxrR/logosketchuw.png" title="" alt="" width="124"></img></a>
                     </div>           
             </li>
 
@@ -29,16 +31,17 @@ const product = () => {
             <li>
                 <a href="/Bag">BAGS</a>
                 <ul class="drop-menu">
-                    {/* <li><a href="#">View All</a></li>
-                    <li><a href="#">Men</a></li>
-                    <li><a href="#">Women</a></li>
-                    <li><a href="#">Sneakers</a></li> */}
+    
                 </ul>
             </li>
+
 
             <li>
                 <a href="/access">ACCESSORIES</a>
             </li>
+
+
+
         </ul>
         
 
@@ -78,12 +81,15 @@ const product = () => {
             </li>
 
         </ul>
+
+        
     </nav>
-    </div>   
-        <ProductList />
     </div>
-    
+    <div className="center-image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/QR_code_for_mobile_English_Wikipedia.svg" alt="Large Image" />
+      </div>
+    </div>
   )
 }
 
-export default product
+export default Payment

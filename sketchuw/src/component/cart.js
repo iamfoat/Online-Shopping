@@ -182,7 +182,7 @@ const Img = styled('img')({
                               
                             </Grid>
                             <Grid item sx={{ margin: '15px'}} textAlign={'center'}>
-                            <Button variant="contained">ยืนยันคำสั่งซื้อ</Button>
+                            <a href='/Payment'><Button variant="contained">ยืนยันคำสั่งซื้อ</Button></a>
 
                             </Grid>
                         </Grid>

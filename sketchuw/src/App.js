@@ -11,6 +11,8 @@ import Access from './component/Access';
 import User from './component/User';
 import Cart from './component/cart';
 import Show from './component/item';
+import Payment from './component/Payment';
+
 function App() {
   return (
     <div className="App">
@@ -34,6 +36,8 @@ function App() {
         <Route path="/account" element={<User />} />
         <Route path="/cart" element={<Cart/>} />
         <Route path="/show" element={<Show/>} />
+        <Route path="/Payment" element={<Payment/>} />
+
 
 
 
