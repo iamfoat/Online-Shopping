@@ -39,8 +39,10 @@
 
 .menu {
     text-align: left;
-    margin-left: 35px;
     color: aliceblue;
+    background-color: black;
+    padding: 20px;
+    height: 100%;
 }
 .menu a{
     color: aliceblue;
