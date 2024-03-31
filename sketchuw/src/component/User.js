@@ -19,9 +19,7 @@ const User = () => {
                     </div>           
             </li>
 
-            <div className='user'>
               <h1>Profile</h1>
-            </div> 
             
 
         </ul>
@@ -70,10 +68,8 @@ const User = () => {
         </div>
         </div>
     </div>
-    <div style={{marginTop:"-720px"}}>
-    <div className='pic' >
-      <Avatar src="/broken-image.jpg" />
-    </div >
+    <div style={{marginTop:"-640px"}}>
+    
   
     <div className='text'>
     <div className='first'>
