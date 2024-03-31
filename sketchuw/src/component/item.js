@@ -20,9 +20,7 @@ const ProductItem = () => {
         <p>size</p>
         
         <Button variant="contained">Add to Cart</Button>
-        <IconButton color="primary" aria-label="add to shopping cart">
-          <AddShoppingCartIcon />
-        </IconButton>
+       
       </div>
     </div>
   );

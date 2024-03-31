@@ -32,9 +32,7 @@
     margin-left: -320px;
 }
 
-.outlined-basic{
-    width: 10000px;
-}
+
 
 
 .menu {
@@ -47,4 +45,8 @@
 .menu a{
     color: aliceblue;
     text-decoration: none;
+    padding-top: 5px;
+    flex-direction: column;
+    display: flex;
+
 }

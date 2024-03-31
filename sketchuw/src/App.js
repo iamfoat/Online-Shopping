@@ -12,6 +12,7 @@ import User from './component/User';
 import Cart from './component/cart';
 import Show from './component/item';
 import Payment from './component/Payment';
+import Ordered from './component/Ordered';
 
 function App() {
   return (
@@ -37,6 +38,8 @@ function App() {
         <Route path="/cart" element={<Cart/>} />
         <Route path="/show" element={<Show/>} />
         <Route path="/Payment" element={<Payment/>} />
+        <Route path="/Ordered" element={<Ordered/>} />
+
 
 
 

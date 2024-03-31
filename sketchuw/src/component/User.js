@@ -65,7 +65,8 @@ const User = () => {
         <div className='cover'>
         <div className='menu'>
             <h3 href="#">Setting</h3>
-            <a href="#">Account Details</a><br/>
+            <a href="/account">Account Details</a><br/>
+            <a href='/Ordered'>Ordered</a>
         </div>
         </div>
     </div>
